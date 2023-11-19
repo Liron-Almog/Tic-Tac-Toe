@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root{
+
+    /* COLOR */
+    /* --BGCOLOR:#F2F2F2; 
+    --FIRSTMAINCOLOR:#445069;
+    --SECONDMAINDCOLOR:#5B9A8B;
+    --BUTTONCOLOR:#252B48;  */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+

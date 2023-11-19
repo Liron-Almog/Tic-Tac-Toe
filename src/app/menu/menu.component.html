@@ -1,0 +1,37 @@
+<h1>Tic-Tac-Toe</h1>
+
+<form class="container mt-4" #f="ngForm" (ngSubmit)="onSubmit(f)">
+  <div class="row justify-content-center">
+    <div class="col-md-4 col-8">
+      <div class="mb-3">
+        <label for="first-name" class="form-label">First Name</label>
+        <input
+        ngModel
+          type="text"
+          class="form-control"
+          id="first-name"
+          aria-describedby="firstName"
+          name="firstName"
+        />
+      </div>
+
+      <div class="mb-3">
+        <label for="second-name" class="form-label">Second Name</label>
+        <input
+        ngModel
+        name="secondName"
+          type="text"
+          class="form-control"
+          id="second-name"
+          aria-describedby="secondName"
+        />
+      </div>
+    </div>
+    <div class="row justify-content-center mt-3">
+      <button type="submit" class="btn btn-primary col-md-2 col-4">
+        Start
+      </button>
+    </div>
+</div>
+</form>
+

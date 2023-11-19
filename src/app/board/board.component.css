@@ -1,0 +1,16 @@
+.board-buttons{
+  
+    font-size: 70px;
+    width: 90px;
+    height: 75px;
+    padding-bottom: 105px;
+    text-align: center;
+}
+.to-move-mss{
+
+    font-size: 1.6rem;
+}
+p{
+   text-align: center;
+    color: aliceblue;
+}

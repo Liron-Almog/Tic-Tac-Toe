@@ -1,0 +1,11 @@
+h1{
+    padding-top: 50px;
+    text-align: center;
+    text-shadow:0 0 1px #b3ff00, 0 0 3px #b3ff00, 0 0 8px #b3ff00;
+    color:#b3ff00;
+    font-size: 6rem;
+
+}
+label{
+    color:#b3ff00;
+}
