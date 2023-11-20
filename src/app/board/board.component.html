@@ -6,15 +6,15 @@
         <p *ngIf="!turnOfPlayerOne" class="col-2 to-move-mss" >{{playerTwo}} to move</p>
     </div>
 
-    <div class="row justify-content-center">
-        <div class="col-md-3  text-center" (click)="onButtonClick($event)">
-            <button *ngFor="let button of board; let i = index" class="col-4 mt-1 board-buttons" [id]="i">&nbsp;</button>
+    <div class="row justify-content-center ">
+        <div class=" col-6 col-lg-4 col-xl-3 text-center" (click)="onButtonClick($event)">
+            <button *ngFor="let button of board; let i = index" class="col-4 mt-1 board-buttons" [id]="i">{{button}}</button>
         </div>
     </div>
 
     <div class="row justify-content-center mt-2">
         <button class="btn col-1 bg-primary ml-2" (click)="onResetBoard()">Reset</button>
-        <button style="margin-left: 10px;" class="btn col-1 bg-primary" (click)="onToggleStarter()">Toggle Starter</button>
+        <button [disabled]="isGameStarted" style="margin-left: 10px;" class="btn col-1 bg-primary" (click)="onToggleStarter()">Toggle Starter</button>
     </div>
 
     <div class="row">
